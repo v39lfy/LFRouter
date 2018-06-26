@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		78F6E3A6C249D562987679E4 /* Pods_LFRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6FF6BE53F37D43F09E8B93 /* Pods_LFRouter_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B54D65E520E2361100471E32 /* DMRouterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B54D65E420E2361100471E32 /* DMRouterConfig.m */; };
+		B54D65F520E2373600471E32 /* LFRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54D65F420E2373600471E32 /* LFRouter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,12 +61,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6B6AAD9475A7EB0F4BFECE5C /* Pods-LFRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFRouter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFRouter_Tests/Pods-LFRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		70646A467EDFA64CF5FAF990 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		70646A467EDFA64CF5FAF990 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99E28FC746A3044BE91D220A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9A6E2080071E5E73225D780C /* LFRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LFRouter.podspec; path = ../LFRouter.podspec; sourceTree = "<group>"; };
+		99E28FC746A3044BE91D220A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9A6E2080071E5E73225D780C /* LFRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LFRouter.podspec; path = ../LFRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F6FF6BE53F37D43F09E8B93 /* Pods_LFRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54D65E320E2361100471E32 /* DMRouterConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRouterConfig.h; sourceTree = "<group>"; };
+		B54D65E420E2361100471E32 /* DMRouterConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRouterConfig.m; sourceTree = "<group>"; };
+		B54D65F420E2373600471E32 /* LFRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LFRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59B95B74786B9522B8333E2 /* Pods-LFRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFRouter_Example/Pods-LFRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D63EAB5C3FAB5C5DCEFC4F30 /* Pods-LFRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFRouter_Example/Pods-LFRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54D65F520E2373600471E32 /* LFRouter.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -130,6 +136,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B54D65F420E2373600471E32 /* LFRouter.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -151,6 +158,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				B54D65E320E2361100471E32 /* DMRouterConfig.h */,
+				B54D65E420E2361100471E32 /* DMRouterConfig.m */,
 			);
 			name = "Example for LFRouter";
 			path = LFRouter;
@@ -377,6 +386,7 @@
 				6003F59E195388D20070C39A /* LFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B54D65E520E2361100471E32 /* DMRouterConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +517,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LFRouter/LFRouter-Prefix.pch";
 				INFOPLIST_FILE = "LFRouter/LFRouter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -522,6 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LFRouter/LFRouter-Prefix.pch";
 				INFOPLIST_FILE = "LFRouter/LFRouter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
