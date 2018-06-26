@@ -37,7 +37,7 @@ pod 'LFRouter' , :git =>'https://github.com/v39lfy/LFRouter.git'
 
 ## Author
 
-李福有, admin@onlywish.me
+lify, admin@onlywish.me
 
 ## License
 
