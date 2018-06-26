@@ -25,5 +25,24 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)tabbar2:(id)sender {
+    [Router open:RouterTable params:nil];
+}
+- (IBAction)push:(id)sender {
+    [Router open:RouterPush params:@{@"name":@"AAA"}];
+}
+- (IBAction)pushnop:(id)sender {
+    [Router open:RouterPush params:nil];
+    
+    //注意控制台警告,可以使用下边的函数来补捉错误
+//    [Router open:RouterPush params:nil animated:YES completion:^(NSError *error) {
+//        assert(error != nil);
+//    }];
+}
+
+- (IBAction)moal:(id)sender {
+    [Router open:RouterPresent params:nil];
+}
+
 
 @end

@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <LFRouter/LFRouter.h>
+
+extern NSString *RouterHome;
+extern NSString *RouterTable;
+extern NSString *RouterPush;
+extern NSString *RouterPresent;
+
+#define Router [LFRouter instance]
+
 @interface DMRouterConfig : NSObject
 
 +(void)config;

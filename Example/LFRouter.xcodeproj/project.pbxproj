@@ -26,6 +26,8 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B54D65E520E2361100471E32 /* DMRouterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B54D65E420E2361100471E32 /* DMRouterConfig.m */; };
 		B54D65F520E2373600471E32 /* LFRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54D65F420E2373600471E32 /* LFRouter.framework */; };
+		B54D662520E241D500471E32 /* LFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54D662420E241D500471E32 /* LFTabBarViewController.m */; };
+		B54D662820E2480A00471E32 /* LFPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54D662720E2480A00471E32 /* LFPushViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,10 @@
 		B54D65E320E2361100471E32 /* DMRouterConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRouterConfig.h; sourceTree = "<group>"; };
 		B54D65E420E2361100471E32 /* DMRouterConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRouterConfig.m; sourceTree = "<group>"; };
 		B54D65F420E2373600471E32 /* LFRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LFRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54D662320E241D500471E32 /* LFTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFTabBarViewController.h; sourceTree = "<group>"; };
+		B54D662420E241D500471E32 /* LFTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFTabBarViewController.m; sourceTree = "<group>"; };
+		B54D662620E2480A00471E32 /* LFPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFPushViewController.h; sourceTree = "<group>"; };
+		B54D662720E2480A00471E32 /* LFPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFPushViewController.m; sourceTree = "<group>"; };
 		B59B95B74786B9522B8333E2 /* Pods-LFRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFRouter_Example/Pods-LFRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D63EAB5C3FAB5C5DCEFC4F30 /* Pods-LFRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFRouter_Example/Pods-LFRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +166,10 @@
 				6003F594195388D20070C39A /* Supporting Files */,
 				B54D65E320E2361100471E32 /* DMRouterConfig.h */,
 				B54D65E420E2361100471E32 /* DMRouterConfig.m */,
+				B54D662320E241D500471E32 /* LFTabBarViewController.h */,
+				B54D662420E241D500471E32 /* LFTabBarViewController.m */,
+				B54D662620E2480A00471E32 /* LFPushViewController.h */,
+				B54D662720E2480A00471E32 /* LFPushViewController.m */,
 			);
 			name = "Example for LFRouter";
 			path = LFRouter;
@@ -385,8 +395,10 @@
 			files = (
 				6003F59E195388D20070C39A /* LFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LFViewController.m in Sources */,
+				B54D662820E2480A00471E32 /* LFPushViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				B54D65E520E2361100471E32 /* DMRouterConfig.m in Sources */,
+				B54D662520E241D500471E32 /* LFTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

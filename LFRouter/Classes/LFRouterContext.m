@@ -15,6 +15,10 @@
 @end
 
 @implementation LFRouterContextProperty
+
+-(NSString *)description{
+    return self.attributesName;
+}
 @end
 
 @interface LFRouterContext (){
@@ -58,7 +62,7 @@
     NSMutableArray *lackPropertys = @[].mutableCopy;
     
     for (LFRouterContextProperty *key in requirePropertys) {
-        if (params[key] == nil && key.isOption == NO) {
+        if (params[key.attributesName] == nil && key.isOption == NO) {
             [lackPropertys addObject:key];
         }
     }
