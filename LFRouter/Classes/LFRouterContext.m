@@ -3,7 +3,7 @@
 //  BluChat
 //
 //  Created by 福有李 on 2018/1/11.
-//  Copyright © 2018年 Bluchat. All rights reserved.
+//  Copyright © 2018年 李福有. All rights reserved.
 //
 
 #import "LFRouterContext.h"
