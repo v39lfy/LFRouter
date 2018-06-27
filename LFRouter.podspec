@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LFRouter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'LFRouter 用于：\n\t1.解耦ViewController之间的调用 \n\t2.统一h5和view之间的跳转逻辑 \n\t3.插件化viewController进入之前的逻辑（比如：某些界面需要登录等等）'
 
 # This description is used to generate tags and improve search results.

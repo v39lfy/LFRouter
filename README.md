@@ -3,6 +3,8 @@
 [![CI Status](https://img.shields.io/travis/李福有/LFRouter.svg?style=flat)](https://travis-ci.org/李福有/LFRouter)
 [![Version](https://img.shields.io/cocoapods/v/LFRouter.svg?style=flat)](https://cocoapods.org/pods/LFRouter)
 [![License](https://img.shields.io/cocoapods/l/LFRouter.svg?style=flat)](https://cocoapods.org/pods/LFRouter)
+![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 [![Platform](https://img.shields.io/cocoapods/p/LFRouter.svg?style=flat)](https://cocoapods.org/pods/LFRouter)
 
 ## Description
