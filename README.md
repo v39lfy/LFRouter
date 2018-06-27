@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/LFRouter.svg?style=flat)](https://cocoapods.org/pods/LFRouter)
 [![License](https://img.shields.io/cocoapods/l/LFRouter.svg?style=flat)](https://cocoapods.org/pods/LFRouter)
 [![Platform](https://img.shields.io/cocoapods/p/LFRouter.svg?style=flat)](https://cocoapods.org/pods/LFRouter)
-![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ## Description
 block化的路由组件，支持url路由到指定界面。
