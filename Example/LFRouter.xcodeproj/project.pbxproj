@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D38F847CB3539C10FA64DE6 /* Pods_LFRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC34DD54FA66D7E11BB55A /* Pods_LFRouter_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -28,6 +27,8 @@
 		B54D65F520E2373600471E32 /* LFRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54D65F420E2373600471E32 /* LFRouter.framework */; };
 		B54D662520E241D500471E32 /* LFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54D662420E241D500471E32 /* LFTabBarViewController.m */; };
 		B54D662820E2480A00471E32 /* LFPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54D662720E2480A00471E32 /* LFPushViewController.m */; };
+		B553CC9620E3AF580039F46B /* LFRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B553CC9520E3AF450039F46B /* LFRouter.framework */; };
+		B553CC9720E3AF580039F46B /* LFRouter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B553CC9520E3AF450039F46B /* LFRouter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,35 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = LFRouter;
 		};
+		B553CC9420E3AF450039F46B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B553CC9020E3AF450039F46B /* LFRouterFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B553CC7420E3AE460039F46B;
+			remoteInfo = LFRouter;
+		};
+		B553CC9820E3AF580039F46B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B553CC9020E3AF450039F46B /* LFRouterFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B553CC7320E3AE460039F46B;
+			remoteInfo = LFRouter;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B553CC6920E3ADEC0039F46B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B553CC9720E3AF580039F46B /* LFRouter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		219AB1DC7BAEC61CFCD3F11E /* Pods-LFRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFRouter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFRouter_Tests/Pods-LFRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +105,9 @@
 		B54D662420E241D500471E32 /* LFTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFTabBarViewController.m; sourceTree = "<group>"; };
 		B54D662620E2480A00471E32 /* LFPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFPushViewController.h; sourceTree = "<group>"; };
 		B54D662720E2480A00471E32 /* LFPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFPushViewController.m; sourceTree = "<group>"; };
+		B553CC5F20E3ADEC0039F46B /* LFRouterFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFRouterFramework.h; sourceTree = "<group>"; };
+		B553CC6020E3ADEC0039F46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B553CC9020E3AF450039F46B /* LFRouterFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LFRouterFramework.xcodeproj; path = ../LFRouterFramework.xcodeproj; sourceTree = "<group>"; };
 		B59B95B74786B9522B8333E2 /* Pods-LFRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFRouter_Example/Pods-LFRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D63EAB5C3FAB5C5DCEFC4F30 /* Pods-LFRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFRouter_Example/Pods-LFRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,8 +120,8 @@
 				B54D65F520E2373600471E32 /* LFRouter.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				B553CC9620E3AF580039F46B /* LFRouter.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1D38F847CB3539C10FA64DE6 /* Pods_LFRouter_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,9 +153,11 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B553CC9020E3AF450039F46B /* LFRouterFramework.xcodeproj */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LFRouter */,
 				6003F5B5195388D20070C39A /* Tests */,
+				B553CC5E20E3ADEC0039F46B /* LFRouterFramework */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				427A37659B5FA65BD2EE2B22 /* Pods */,
@@ -215,6 +249,23 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B553CC5E20E3ADEC0039F46B /* LFRouterFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B553CC5F20E3ADEC0039F46B /* LFRouterFramework.h */,
+				B553CC6020E3ADEC0039F46B /* Info.plist */,
+			);
+			path = LFRouterFramework;
+			sourceTree = "<group>";
+		};
+		B553CC9120E3AF450039F46B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B553CC9520E3AF450039F46B /* LFRouter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,15 +273,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LFRouter_Example" */;
 			buildPhases = (
-				7959A902AF53DFE457B7582F /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				1374A41C57740101F27A94D2 /* [CP] Embed Pods Frameworks */,
+				B553CC6920E3ADEC0039F46B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B553CC9920E3AF580039F46B /* PBXTargetDependency */,
 			);
 			name = LFRouter_Example;
 			productName = LFRouter;
@@ -283,6 +334,12 @@
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B553CC9120E3AF450039F46B /* Products */;
+					ProjectRef = B553CC9020E3AF450039F46B /* LFRouterFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* LFRouter_Example */,
@@ -290,6 +347,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B553CC9520E3AF450039F46B /* LFRouter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LFRouter.framework;
+			remoteRef = B553CC9420E3AF450039F46B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6003F588195388D20070C39A /* Resources */ = {
@@ -314,24 +381,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1374A41C57740101F27A94D2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LFRouter_Example/Pods-LFRouter_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LFRouter/LFRouter.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LFRouter.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LFRouter_Example/Pods-LFRouter_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		51C84C6F245BC429CD800E4D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,24 +393,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LFRouter_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7959A902AF53DFE457B7582F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LFRouter_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -417,6 +448,11 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* LFRouter_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+		B553CC9920E3AF580039F46B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LFRouter;
+			targetProxy = B553CC9820E3AF580039F46B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -526,6 +562,7 @@
 			baseConfigurationReference = B59B95B74786B9522B8333E2 /* Pods-LFRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LFRouter/LFRouter-Prefix.pch";
 				INFOPLIST_FILE = "LFRouter/LFRouter-Info.plist";
@@ -542,6 +579,7 @@
 			baseConfigurationReference = D63EAB5C3FAB5C5DCEFC4F30 /* Pods-LFRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LFRouter/LFRouter-Prefix.pch";
 				INFOPLIST_FILE = "LFRouter/LFRouter-Info.plist";
