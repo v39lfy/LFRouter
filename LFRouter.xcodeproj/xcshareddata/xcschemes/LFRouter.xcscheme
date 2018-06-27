@@ -17,7 +17,7 @@
                BlueprintIdentifier = "B553CC7320E3AE460039F46B"
                BuildableName = "LFRouter.framework"
                BlueprintName = "LFRouter"
-               ReferencedContainer = "container:LFRouterFramework.xcodeproj">
+               ReferencedContainer = "container:LFRouter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,7 +48,7 @@
             BlueprintIdentifier = "B553CC7320E3AE460039F46B"
             BuildableName = "LFRouter.framework"
             BlueprintName = "LFRouter"
-            ReferencedContainer = "container:LFRouterFramework.xcodeproj">
+            ReferencedContainer = "container:LFRouter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,7 +66,7 @@
             BlueprintIdentifier = "B553CC7320E3AE460039F46B"
             BuildableName = "LFRouter.framework"
             BlueprintName = "LFRouter"
-            ReferencedContainer = "container:LFRouterFramework.xcodeproj">
+            ReferencedContainer = "container:LFRouter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

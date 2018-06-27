@@ -24,11 +24,10 @@
 		78F6E3A6C249D562987679E4 /* Pods_LFRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6FF6BE53F37D43F09E8B93 /* Pods_LFRouter_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B54D65E520E2361100471E32 /* DMRouterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B54D65E420E2361100471E32 /* DMRouterConfig.m */; };
-		B54D65F520E2373600471E32 /* LFRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54D65F420E2373600471E32 /* LFRouter.framework */; };
 		B54D662520E241D500471E32 /* LFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54D662420E241D500471E32 /* LFTabBarViewController.m */; };
 		B54D662820E2480A00471E32 /* LFPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54D662720E2480A00471E32 /* LFPushViewController.m */; };
-		B553CC9620E3AF580039F46B /* LFRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B553CC9520E3AF450039F46B /* LFRouter.framework */; };
-		B553CC9720E3AF580039F46B /* LFRouter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B553CC9520E3AF450039F46B /* LFRouter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B553CCAF20E3B22B0039F46B /* LFRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B553CCAE20E3B2170039F46B /* LFRouter.framework */; };
+		B553CCB020E3B22B0039F46B /* LFRouter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B553CCAE20E3B2170039F46B /* LFRouter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +38,16 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = LFRouter;
 		};
-		B553CC9420E3AF450039F46B /* PBXContainerItemProxy */ = {
+		B553CCAD20E3B2170039F46B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B553CC9020E3AF450039F46B /* LFRouterFramework.xcodeproj */;
+			containerPortal = B553CCA920E3B2170039F46B /* LFRouter.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B553CC7420E3AE460039F46B;
 			remoteInfo = LFRouter;
 		};
-		B553CC9820E3AF580039F46B /* PBXContainerItemProxy */ = {
+		B553CCB120E3B22B0039F46B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B553CC9020E3AF450039F46B /* LFRouterFramework.xcodeproj */;
+			containerPortal = B553CCA920E3B2170039F46B /* LFRouter.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = B553CC7320E3AE460039F46B;
 			remoteInfo = LFRouter;
@@ -62,7 +61,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B553CC9720E3AF580039F46B /* LFRouter.framework in Embed Frameworks */,
+				B553CCB020E3B22B0039F46B /* LFRouter.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,14 +99,11 @@
 		9F6FF6BE53F37D43F09E8B93 /* Pods_LFRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54D65E320E2361100471E32 /* DMRouterConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRouterConfig.h; sourceTree = "<group>"; };
 		B54D65E420E2361100471E32 /* DMRouterConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRouterConfig.m; sourceTree = "<group>"; };
-		B54D65F420E2373600471E32 /* LFRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LFRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54D662320E241D500471E32 /* LFTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFTabBarViewController.h; sourceTree = "<group>"; };
 		B54D662420E241D500471E32 /* LFTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFTabBarViewController.m; sourceTree = "<group>"; };
 		B54D662620E2480A00471E32 /* LFPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFPushViewController.h; sourceTree = "<group>"; };
 		B54D662720E2480A00471E32 /* LFPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFPushViewController.m; sourceTree = "<group>"; };
-		B553CC5F20E3ADEC0039F46B /* LFRouterFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFRouterFramework.h; sourceTree = "<group>"; };
-		B553CC6020E3ADEC0039F46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B553CC9020E3AF450039F46B /* LFRouterFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LFRouterFramework.xcodeproj; path = ../LFRouterFramework.xcodeproj; sourceTree = "<group>"; };
+		B553CCA920E3B2170039F46B /* LFRouter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LFRouter.xcodeproj; path = ../LFRouter.xcodeproj; sourceTree = "<group>"; };
 		B59B95B74786B9522B8333E2 /* Pods-LFRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFRouter_Example/Pods-LFRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D63EAB5C3FAB5C5DCEFC4F30 /* Pods-LFRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFRouter_Example/Pods-LFRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,10 +113,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B54D65F520E2373600471E32 /* LFRouter.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				B553CCAF20E3B22B0039F46B /* LFRouter.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				B553CC9620E3AF580039F46B /* LFRouter.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,11 +148,10 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				B553CC9020E3AF450039F46B /* LFRouterFramework.xcodeproj */,
+				B553CCA920E3B2170039F46B /* LFRouter.xcodeproj */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LFRouter */,
 				6003F5B5195388D20070C39A /* Tests */,
-				B553CC5E20E3ADEC0039F46B /* LFRouterFramework */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				427A37659B5FA65BD2EE2B22 /* Pods */,
@@ -176,7 +170,6 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B54D65F420E2373600471E32 /* LFRouter.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -249,19 +242,10 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		B553CC5E20E3ADEC0039F46B /* LFRouterFramework */ = {
+		B553CCAA20E3B2170039F46B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B553CC5F20E3ADEC0039F46B /* LFRouterFramework.h */,
-				B553CC6020E3ADEC0039F46B /* Info.plist */,
-			);
-			path = LFRouterFramework;
-			sourceTree = "<group>";
-		};
-		B553CC9120E3AF450039F46B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B553CC9520E3AF450039F46B /* LFRouter.framework */,
+				B553CCAE20E3B2170039F46B /* LFRouter.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -281,7 +265,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B553CC9920E3AF580039F46B /* PBXTargetDependency */,
+				B553CCB220E3B22B0039F46B /* PBXTargetDependency */,
 			);
 			name = LFRouter_Example;
 			productName = LFRouter;
@@ -323,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "LFRouter" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "LFRouterExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -336,8 +320,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B553CC9120E3AF450039F46B /* Products */;
-					ProjectRef = B553CC9020E3AF450039F46B /* LFRouterFramework.xcodeproj */;
+					ProductGroup = B553CCAA20E3B2170039F46B /* Products */;
+					ProjectRef = B553CCA920E3B2170039F46B /* LFRouter.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -349,11 +333,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B553CC9520E3AF450039F46B /* LFRouter.framework */ = {
+		B553CCAE20E3B2170039F46B /* LFRouter.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = LFRouter.framework;
-			remoteRef = B553CC9420E3AF450039F46B /* PBXContainerItemProxy */;
+			remoteRef = B553CCAD20E3B2170039F46B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -449,10 +433,10 @@
 			target = 6003F589195388D20070C39A /* LFRouter_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
-		B553CC9920E3AF580039F46B /* PBXTargetDependency */ = {
+		B553CCB220E3B22B0039F46B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LFRouter;
-			targetProxy = B553CC9820E3AF580039F46B /* PBXContainerItemProxy */;
+			targetProxy = B553CCB120E3B22B0039F46B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -638,7 +622,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "LFRouter" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "LFRouterExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
