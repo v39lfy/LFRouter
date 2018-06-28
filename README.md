@@ -32,7 +32,9 @@ LFRouter is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LFRouter' , :git =>'https://github.com/v39lfy/LFRouter.git'
+target 'MyApp' do
+pod 'LFRouter', '~> 0.1'
+end
 ```
 
 ### Carthage
