@@ -45,6 +45,13 @@
 			remoteGlobalIDString = B553CC7320E3AE460039F46B;
 			remoteInfo = LFRouter;
 		};
+		B5421EEE20E4C24A00416926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B553CCA920E3B2170039F46B /* LFRouter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5421EE120E4B39900416926;
+			remoteInfo = LFRouterTests;
+		};
 		B553CCAD20E3B2170039F46B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B553CCA920E3B2170039F46B /* LFRouter.xcodeproj */;
@@ -251,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				B553CCAE20E3B2170039F46B /* LFRouter.framework */,
+				B5421EEF20E4C24A00416926 /* LFRouterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,6 +345,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		B5421EEF20E4C24A00416926 /* LFRouterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LFRouterTests.xctest;
+			remoteRef = B5421EEE20E4C24A00416926 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B553CCAE20E3B2170039F46B /* LFRouter.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -521,6 +536,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LFRouter/LFRouter-Prefix.pch";
 				INFOPLIST_FILE = "LFRouter/LFRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -538,6 +554,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LFRouter/LFRouter-Prefix.pch";
 				INFOPLIST_FILE = "LFRouter/LFRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

@@ -2,8 +2,12 @@
 # * https://www.objc.io/issues/6-build-tools/travis-ci/
 # * https://github.com/supermarin/xcpretty#usage
 
-osx_image: xcode9.4
+osx_image: xcode9.3
 language: objective-c
-xcode_project: Example/LFRouterExample.xcodeproj # path to your xcodeproj folder
-xcode_scheme: LFRouterExample
-xcode_sdk: iphonesimulator11.4
+# cache: cocoapods
+# podfile: Example/Podfile
+# before_install:
+# - gem install cocoapods # Since Travis is not always on latest version
+# - pod install --project-directory=Example
+script:
+- xcodebuild test-without-building  -project Example/LFRouterExample.xcodeproj -scheme LFRouterExample  CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'
