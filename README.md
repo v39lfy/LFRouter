@@ -21,7 +21,7 @@ block化的路由组件，支持url路由到指定界面。
 2. 路由优先级和生命周期管理
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo,open Example/LFRouterExample
 
 ## Requirements
 
