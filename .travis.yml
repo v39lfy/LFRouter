@@ -11,4 +11,4 @@ language: objective-c
 # - pod install --project-directory=Example
 script:
 - cd Example/ && xcodebuild -list && cd ../
-- xcodebuild clean && xcodebuild test-without-building  -project Example/LFRouterExample.xcodeproj -scheme LFRouterExample  CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'
+- xcodebuild clean && xcodebuild test-without-building  -project Example/LFRouterExample.xcodeproj -scheme LFRouter_Example  CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'
