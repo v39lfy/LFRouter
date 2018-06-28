@@ -1,6 +1,6 @@
 # LFRouter
 
-[![CI Status](https://img.shields.io/travis/v39lfy/LFRouter./master.svg?style=flat)](https://travis-ci.org/v39lfy/LFRouter)
+[![Build Status](https://travis-ci.org/v39lfy/LFRouter.svg?branch=master)](https://travis-ci.org/v39lfy/LFRouter)
 [![Version](https://img.shields.io/cocoapods/v/LFRouter.svg?style=flat)](https://cocoapods.org/pods/LFRouter)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://cocoapods.org/pods/LFRouter)
