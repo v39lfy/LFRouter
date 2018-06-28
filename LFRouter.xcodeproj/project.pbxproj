@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5421EE420E4B39900416926 /* LFRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5421EE320E4B39900416926 /* LFRouterTests.m */; };
+		B5421EE620E4B39900416926 /* LFRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B553CC7420E3AE460039F46B /* LFRouter.framework */; };
 		B553CC7920E3AE460039F46B /* Router.h in Headers */ = {isa = PBXBuildFile; fileRef = B553CC7720E3AE460039F46B /* Router.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B553CC8920E3AE790039F46B /* LFRouterContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B553CC8120E3AE790039F46B /* LFRouterContext.m */; };
 		B553CC8A20E3AE790039F46B /* LFRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = B553CC8220E3AE790039F46B /* LFRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,7 +19,20 @@
 		B553CC8F20E3AE790039F46B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B553CC8820E3AE790039F46B /* .gitkeep */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B5421EE720E4B39900416926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B553CC6B20E3AE460039F46B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B553CC7320E3AE460039F46B;
+			remoteInfo = LFRouter;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		B5421EE120E4B39900416926 /* LFRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5421EE320E4B39900416926 /* LFRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFRouterTests.m; sourceTree = "<group>"; };
+		B5421EE520E4B39900416926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B553CC7420E3AE460039F46B /* LFRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LFRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B553CC7720E3AE460039F46B /* Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
 		B553CC7820E3AE460039F46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +46,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B5421EDE20E4B39900416926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5421EE620E4B39900416926 /* LFRouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B553CC7020E3AE460039F46B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +64,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5421EE220E4B39900416926 /* LFRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5421EE320E4B39900416926 /* LFRouterTests.m */,
+				B5421EE520E4B39900416926 /* Info.plist */,
+			);
+			path = LFRouterTests;
+			sourceTree = "<group>";
+		};
 		B553CC6A20E3AE460039F46B = {
 			isa = PBXGroup;
 			children = (
 				B553CC7620E3AE460039F46B /* LFRouterFramework */,
+				B5421EE220E4B39900416926 /* LFRouterTests */,
 				B553CC7520E3AE460039F46B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				B553CC7420E3AE460039F46B /* LFRouter.framework */,
+				B5421EE120E4B39900416926 /* LFRouterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +148,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B5421EE020E4B39900416926 /* LFRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5421EEB20E4B39900416926 /* Build configuration list for PBXNativeTarget "LFRouterTests" */;
+			buildPhases = (
+				B5421EDD20E4B39900416926 /* Sources */,
+				B5421EDE20E4B39900416926 /* Frameworks */,
+				B5421EDF20E4B39900416926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5421EE820E4B39900416926 /* PBXTargetDependency */,
+			);
+			name = LFRouterTests;
+			productName = LFRouterTests;
+			productReference = B5421EE120E4B39900416926 /* LFRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B553CC7320E3AE460039F46B /* LFRouter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B553CC7C20E3AE460039F46B /* Build configuration list for PBXNativeTarget "LFRouter" */;
@@ -141,12 +193,15 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "福有李";
 				TargetAttributes = {
+					B5421EE020E4B39900416926 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					B553CC7320E3AE460039F46B = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = B553CC6E20E3AE460039F46B /* Build configuration list for PBXProject "LFRouterFramework" */;
+			buildConfigurationList = B553CC6E20E3AE460039F46B /* Build configuration list for PBXProject "LFRouter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,11 +214,19 @@
 			projectRoot = "";
 			targets = (
 				B553CC7320E3AE460039F46B /* LFRouter */,
+				B5421EE020E4B39900416926 /* LFRouterTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B5421EDF20E4B39900416926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B553CC7220E3AE460039F46B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -176,6 +239,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B5421EDD20E4B39900416926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5421EE420E4B39900416926 /* LFRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B553CC6F20E3AE460039F46B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,7 +258,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B5421EE820E4B39900416926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B553CC7320E3AE460039F46B /* LFRouter */;
+			targetProxy = B5421EE720E4B39900416926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B5421EE920E4B39900416926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95W7U2WGC2;
+				INFOPLIST_FILE = LFRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.onlywish.LFRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5421EEA20E4B39900416926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95W7U2WGC2;
+				INFOPLIST_FILE = LFRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.onlywish.LFRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B553CC7A20E3AE460039F46B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -355,7 +468,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B553CC6E20E3AE460039F46B /* Build configuration list for PBXProject "LFRouterFramework" */ = {
+		B5421EEB20E4B39900416926 /* Build configuration list for PBXNativeTarget "LFRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5421EE920E4B39900416926 /* Debug */,
+				B5421EEA20E4B39900416926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B553CC6E20E3AE460039F46B /* Build configuration list for PBXProject "LFRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B553CC7A20E3AE460039F46B /* Debug */,

@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B5421EE020E4B39900416926"
+               BuildableName = "LFRouterTests.xctest"
+               BlueprintName = "LFRouterTests"
+               ReferencedContainer = "container:LFRouter.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B553CC7320E3AE460039F46B"
+            BuildableName = "LFRouter.framework"
+            BlueprintName = "LFRouter"
+            ReferencedContainer = "container:LFRouter.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
