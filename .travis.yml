@@ -10,4 +10,4 @@ language: objective-c
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- xcodebuild test-without-building  -project Example/LFRouterExample.xcodeproj -scheme LFRouterExample  CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'
+- xcodebuild clean && xcodebuild test-without-building  -project Example/LFRouterExample.xcodeproj -scheme LFRouterExample  CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'
